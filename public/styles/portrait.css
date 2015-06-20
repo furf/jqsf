@@ -1,0 +1,8 @@
+body {
+  background: #777;
+}
+img,
+canvas {
+  max-width: 50%;
+  height: auto;
+}

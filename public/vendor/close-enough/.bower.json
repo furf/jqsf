@@ -1,0 +1,14 @@
+{
+  "name": "close-enough",
+  "homepage": "https://github.com/furf/close-enough",
+  "_release": "fd6c0b603c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fd6c0b603ce97a18fb3f0c640f5444ac85385751"
+  },
+  "_source": "git://github.com/furf/close-enough.git",
+  "_target": "*",
+  "_originalSource": "furf/close-enough",
+  "_direct": true
+}

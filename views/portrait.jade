@@ -1,0 +1,21 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/styles/portrait.css')
+
+block scripts
+  script(src="/vendor/jquery/dist/jquery.min.js")
+  script(src="/vendor/close-enough/dist/close-enough.js")
+  script(src="/scripts/main.js")
+
+block content
+  .frame
+    img(src="/images/resized/#{image}.png"
+        data-size="#{size}" 
+        data-angle="#{angle}"
+        data-scale="#{scale}"
+        data-depth="#{depth}"
+        data-background="#{background}"
+        data-style="#{style}"
+        data-palette="#{palette}")
+
